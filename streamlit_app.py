@@ -8,4 +8,4 @@ dfcalificaciones ["status"] = dfcalificaciones["promedio"].apply (lambda x: "apr
                                       if (x >=70)else "reprobado") 
 dfcalificaciones
 
-st.dataframe(dfresultados)
+st.dataframe(dfcalificaciones)
